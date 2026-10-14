@@ -1,4 +1,4 @@
-# traefik-jwt-plugin ![Build](https://github.com/traefik-plugins/traefik-jwt-plugin/actions/workflows/build.yaml/badge.svg)
+# traefik-jwt-plugin ![Build](https://github.com/groot314/traefik-jwt-plugin/actions/workflows/build.yaml/badge.svg)
 
 > [!IMPORTANT]
 > This project is looking for maintainers. Please comment in [this issue](https://github.com/traefik-plugins/traefik-jwt-plugin/issues/82)
@@ -29,7 +29,7 @@ The following snippet should be added to `values.yaml`:
 experimental:
   plugins:
     jwt:
-      moduleName: github.com/traefik-plugins/traefik-jwt-plugin
+      moduleName: github.com/groot314/traefik-jwt-plugin
       version: v0.7.1
 ```
 
@@ -37,7 +37,7 @@ experimental:
 
 ```sh
 traefik \
-  --experimental.plugins.jwt.moduleName=github.com/traefik-plugins/traefik-jwt-plugin \
+  --experimental.plugins.jwt.moduleName=github.com/groot314/traefik-jwt-plugin \
   --experimental.plugins.jwt.version=v0.7.1
 ```
 
@@ -125,7 +125,7 @@ metadata:
 
 The following section describes how to use this plugin with Open Policy Agent (OPA)
 
-![OPA diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/traefik-plugins/traefik-jwt-plugin/main/opa.puml)
+![OPA diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/groot314/traefik-jwt-plugin/main/opa.puml)
 
 ### OPA input payload
 
